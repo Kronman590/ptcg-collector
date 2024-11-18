@@ -1,13 +1,13 @@
 import React from "react";
 import Container from '@mui/material/Container';
-import Calculator from "./Calculator";
+import CardList from "./CardList";
 
 const Main = () => {
 
   return (
     <>
       <div className="header">
-          <h1>DINNER ROULETTE</h1>
+          <h1>Pocket TCG Card Collection</h1>
       </div>
       <div className="body">
           <Container fixed
@@ -16,7 +16,7 @@ const Main = () => {
               alignItems: 'center',
               justifyContent: 'center'
             }}>
-              <Calculator/>
+              <CardList/>
           </Container>
         </div>
     </>
